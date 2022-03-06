@@ -1,0 +1,25 @@
+不要好高骛远
+1.配置vscode +cmake
+1）安装插件 get cmake  cmake tools
+2）拓展配置 选择编译工具 配置configure 编译 build
+1.快速入门
+2.成功了第一步 configure build run
+
+
+2.cmake配置opencv
+set(OpenCV_DIR /home/User/opencv/build/)
+find_package( OpenCV REQUIRED )
+临时配置opencv路径
+export OpenCV_DIR=/usr/local/Cellar/opencv/4.5.0_5
+#export OpenCV_DIR=/usr/local/opencv-4.5.0（/usr/local/Cellar/opencv/4.5.0_5）
+在Cmakelist.txt里配置Opencv 加载opencv
+
+
+
+./test-start 
+逻辑：
+读进去所有的文件
+然后找到头文件 lib 等依赖关系   
+cmake帮助你解决文件关系
+然后真正是 clang++ ... 生成可执行文件
+ 
