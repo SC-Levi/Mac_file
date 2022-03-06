@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Users/levi/CODE/C++/TRY01/build",
-  "command": "/usr/bin/clang++  -I/usr/local/Cellar/opencv/4.5.0_5/include/opencv4 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/start.dir/main.cpp.o -c /Users/levi/CODE/C++/TRY01/main.cpp",
-  "file": "/Users/levi/CODE/C++/TRY01/main.cpp"
-}
-]
